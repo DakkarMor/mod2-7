@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    background-color: #1B1A1B;
+    color: #FFFFFF;
+    font-family: Arial;
+}
+ h1, h2, h3{
+    text-align: center;
+ }
+a{
+    color: #FFFFFF;
+    font-family: Arial;
+}
+
+blockquote{
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px; /* 113.636% */
+    text-transform: uppercase;
+}
+cite{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.wrapper{
+    width: 1440px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.room{
+    position: relative;
+    text-align: center;
+    top: 275px;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; /* 114.286% */
+    text-transform: uppercase;
+}
+
+.vibes{
+
+    width: 1180px;
+    height: 710px;
+    flex-shrink: 0;
+    background: url(img/vibes.png), lightgray -31.053px -672.566px / 106.316% 217.051% no-repeat;
+}
+
+.sw{
+
+    width: 1180px;
+    height: 710px;
+    flex-shrink: 0;
+    background: url(img/sw.png), lightgray -31.053px -672.566px / 106.316% 217.051% no-repeat;
+}
+
+.ww{
+
+    width: 1180px;
+    height: 710px;
+    flex-shrink: 0;
+    background: url(img/ww.png), lightgray -31.053px -672.566px / 106.316% 217.051% no-repeat;
+}
+
+.neon{
+
+    width: 1180px;
+    height: 710px;
+    flex-shrink: 0;
+    background: url(img/neon.png), lightgray -31.053px -672.566px / 106.316% 217.051% no-repeat;
+}
+
+.otzyv{
+    border-radius: 80px;
+}
+
+.quotation{
+    color: #6C0287;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.a_cite{
+    position: relative;
+    border-radius: 80px;
+}
